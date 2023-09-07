@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="center">The Simple Calculator</h1>
+    <div class="container flex flex-col center">
+        <div class="row">
+            <input id="input" type="text" class="input" readonly>
+        </div>
+        <div class="row">
+            <button value="AC" class="button bg-green" id="AC" onclick="btn_clearAll()">AC</button>
+            <button value="C" class="button bg-green" id="C" onclick="btn_clear()">C</button>
+            <button value="%" class="button bg-green" id="%" onclick="btn_mod()">%</button>
+            <button value="X" class="button bg-green" id="X" onclick="btn_mul()">X</button>
+        </div>
+        <div class="row">
+            <button value="7" class="button bg-btn-color" id="7" onclick="btn_7()">7</button>
+            <button value="8" class="button bg-btn-color" id="8" onclick="btn_8()">8</button>
+            <button value="9" class="button bg-btn-color" id="9" onclick="btn_9()">9</button>
+            <button value="-" class="button bg-green" id="-" onclick="btn_neg()">-</button>
+        </div>
+        <div class="row">
+            <button value="4" class="button bg-btn-color" id="4" onclick="btn_4()">4</button>
+            <button value="5" class="button bg-btn-color" id="5" onclick="btn_5()">5</button>
+            <button value="6" class="button bg-btn-color" id="6" onclick="btn_6()">6</button>
+            <button value="+" class="button bg-green" id="+" onclick="btn_pos()">+</button>
+        </div>
+        <div class="row">
+            <button value="1" class="button bg-btn-color" id="1" onclick="btn_1()">1</button>
+            <button value="2" class="button bg-btn-color" id="2" onclick="btn_2()">2</button>
+            <button value="3" class="button bg-btn-color" id="3" onclick="btn_3()">3</button>
+            <button value="/" class="button bg-green" id="/" onclick="btn_div()">/</button>
+        </div>
+        <div class="row">
+            <button value="0" class="button bg-btn-color pd-0" id="0" onclick="btn_0()">0</button>
+            <button value="." class="button bg-btn-color" id="." onclick="btn_dot()">.</button>
+            <button value="=" onclick="result()" class="button bg-orange" id="=">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

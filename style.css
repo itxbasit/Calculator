@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lora', serif;
+    background: #2d3964;
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+.bg-green{
+    background-color: #00807d;
+}
+.bg-btn-color{
+    background-color: #3a4452;
+}
+.button{
+    color: aliceblue;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    margin: 0 2px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.row{
+    margin: 12px 0;
+}
+.row input{
+    letter-spacing: 2px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #3a4452;
+    color: aliceblue;
+    font-size: 1.18rem;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 10px;
+}
+h1{
+    color: aliceblue;
+}
+.pd-0{
+    width: 130px;
+}
+.bg-orange{
+    background-color: 	#ff7f50;
+}
+.bg-btn-color:hover{
+    transition: 1s;
+    /* animation: changetext 10s infinite linear; */
+    background-color: #00807d;
+}
+.bg-green:hover{
+    transition: 1s;
+    background-color: #3a4452;
+}
